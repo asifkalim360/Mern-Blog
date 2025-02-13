@@ -25,11 +25,11 @@ const Topbar = () => {
 
       <div className='w-[500px]'>
         <SearchBox />
-      </div>
+      </div>  
       
       <div>
-        <Button asChild>         
-          <Link className='rounded-full'>
+        <Button asChild  className='rounded-full'>         
+          <Link >
             <LuLogIn />
             Sing In
           </Link>
